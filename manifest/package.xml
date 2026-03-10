@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>RCQuoteExtractBasic_1</members>
-		<members>RCQuoteTransformBasic_1</members>
-		<name>OmniDataTransform</name>
-	</types>
-	<types>
-		<members>RC_DocGen_ReturnPDF</members>
 		<members>RC_DocumentGenerationCreate</members>
 		<members>RC_DocumentGenerationMerge</members>
+		<members>RC_ReturnPDFDocument</members>
 		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>RC_DocGen_Get_Product_Attachments</members>
+		<members>RC_Quote_Doc_Gen_wAttachments</members>
+		<name>Flow</name>
 	</types>
 	<types>
 		<members>docStatusMonitor</members>
 		<name>LightningComponentBundle</name>
 	</types>
-	
 	<types>
-		<members>RC_DocGen_Get_Product_Attachments</members>
-		<members>RC_Quote_Doc_Gen_wAttachments</members>
-		<name>Flow</name>
+		<members>RCQuoteExtractBasic_1</members>
+		<members>RCQuoteTransformBasic_1</members>
+		<name>OmniDataTransform</name>
 	</types>
 	<version>66.0</version>
 </Package>
