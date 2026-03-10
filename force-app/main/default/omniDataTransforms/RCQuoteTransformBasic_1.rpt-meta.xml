@@ -182,20 +182,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>f01c69e8-393a-413c-b675-a5d9605c87b9</globalKey>
-        <inputFieldName>QuoteId</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>QuoteId</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <globalKey>d0688cc0-5cc0-4cfe-b0fa-c82894e515f8</globalKey>
         <inputFieldName>Line:CQL:Quantity</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -210,13 +196,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>0971ebca-8656-480d-966f-37c0cc5de33f</globalKey>
-        <inputFieldName>SalesRep</inputFieldName>
+        <globalKey>f01c69e8-393a-413c-b675-a5d9605c87b9</globalKey>
+        <inputFieldName>QuoteId</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>RCQuoteTransformBasic</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>SalesRep</outputFieldName>
+        <outputFieldName>QuoteId</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -238,13 +224,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>fc932e83-5c20-4cf2-82c0-6cf048dc8bf6</globalKey>
-        <inputFieldName>Line:CQL:ProductName</inputFieldName>
+        <globalKey>0971ebca-8656-480d-966f-37c0cc5de33f</globalKey>
+        <inputFieldName>SalesRep</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>RCQuoteTransformBasic</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:CQL:ProductName</outputFieldName>
+        <outputFieldName>SalesRep</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -266,223 +252,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>99269ab2-cb44-40ec-a4d3-074f9683cfb2</globalKey>
-        <inputFieldName>QuoteNumber</inputFieldName>
+        <globalKey>fc932e83-5c20-4cf2-82c0-6cf048dc8bf6</globalKey>
+        <inputFieldName>Line:CQL:ProductName</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>RCQuoteTransformBasic</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>QuoteNumber</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>60bda53f-a1dc-4647-8b5c-422e3f7b48c6</globalKey>
-        <inputFieldName>BillingCity</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>BillingCity</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>23512840-20c2-45cb-944b-25047767cce8</globalKey>
-        <inputFieldName>BillingState</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>BillingState</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>163a50cb-3fcd-4934-84ad-af54f553ea0c</globalKey>
-        <inputFieldName>BillingPostalCode</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>BillingPostalCode</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>46d6bbc3-9173-46e9-9fd5-92790fd3a7e6</globalKey>
-        <inputFieldName>ShippingStreet</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>ShippingStreet</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>63891b69-273c-41f9-89d8-bd13247864b7</globalKey>
-        <inputFieldName>Line:ProductName</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:ProductName</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>b7d22911-d96f-4eeb-8694-9c75536ee45c</globalKey>
-        <inputFieldName>Line:CQL:CQL2:NetTotalPrice</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:CQL:CQL2:NetTotalPrice</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>96a07cd1-0368-466c-8129-90f27549c599</globalKey>
-        <inputFieldName>ExpirationDate</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>ExpirationDate</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>10cd4d6f-626d-4930-ba09-621a97bf18ab</globalKey>
-        <inputFieldName>Line:CQL:NetTotalPrice</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:CQL:NetTotalPrice</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>d4da41ff-1d18-4cbd-b395-2f637c73f6fb</globalKey>
-        <inputFieldName>BillingStreet</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>BillingStreet</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>2f4429e4-5fb7-4471-b265-cb0570a74f1d</globalKey>
-        <inputFieldName>Line:NetUnitPrice</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:NetUnitPrice</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>a9fc8f25-297d-4015-8eae-b8676ed8e918</globalKey>
-        <inputFieldName>CreatedDate</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>CreatedDate</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>76429ae0-eba8-4a86-8da8-6776106dfabb</globalKey>
-        <inputFieldName>Line:CQL:NetUnitPrice</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:CQL:NetUnitPrice</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>fb0a0333-d35b-4c86-84d1-c49455c8d1c3</globalKey>
-        <inputFieldName>Line:Discount</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:Discount</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>1275af97-ea99-4312-9a28-ec09a36ffceb</globalKey>
-        <inputFieldName>Line:Quantity</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:Quantity</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>ada77796-4d03-43a8-8202-05ef9109f17d</globalKey>
-        <inputFieldName>Line:CQL:ListPrice</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>RCQuoteTransformBasic</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:CQL:ListPrice</outputFieldName>
+        <outputFieldName>Line:CQL:ProductName</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -504,13 +280,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>6ea24399-90ed-4e14-91c0-3b293f4872f6</globalKey>
-        <inputFieldName>Line:CQL:CQL2:Discount</inputFieldName>
+        <globalKey>ada77796-4d03-43a8-8202-05ef9109f17d</globalKey>
+        <inputFieldName>Line:CQL:ListPrice</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>RCQuoteTransformBasic</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:CQL:CQL2:Discount</outputFieldName>
+        <outputFieldName>Line:CQL:ListPrice</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -532,13 +308,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>11f79e55-48cf-4199-a065-bd697906a2de</globalKey>
-        <inputFieldName>Line:CQL:CQL2:ListPrice</inputFieldName>
+        <globalKey>6ea24399-90ed-4e14-91c0-3b293f4872f6</globalKey>
+        <inputFieldName>Line:CQL:CQL2:Discount</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>RCQuoteTransformBasic</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:CQL:CQL2:ListPrice</outputFieldName>
+        <outputFieldName>Line:CQL:CQL2:Discount</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -560,13 +336,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>8e63fee3-07ed-4c28-9d90-9c9287a8c58e</globalKey>
-        <inputFieldName>Line:ListPrice</inputFieldName>
+        <globalKey>11f79e55-48cf-4199-a065-bd697906a2de</globalKey>
+        <inputFieldName>Line:CQL:CQL2:ListPrice</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>RCQuoteTransformBasic</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Line:ListPrice</outputFieldName>
+        <outputFieldName>Line:CQL:CQL2:ListPrice</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -581,6 +357,230 @@
         <name>RCQuoteTransformBasic</name>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>Line:CQL:CQL2:NetUnitPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>8e63fee3-07ed-4c28-9d90-9c9287a8c58e</globalKey>
+        <inputFieldName>Line:ListPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:ListPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>2f4429e4-5fb7-4471-b265-cb0570a74f1d</globalKey>
+        <inputFieldName>Line:NetUnitPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:NetUnitPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>76429ae0-eba8-4a86-8da8-6776106dfabb</globalKey>
+        <inputFieldName>Line:CQL:NetUnitPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:CQL:NetUnitPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>a9fc8f25-297d-4015-8eae-b8676ed8e918</globalKey>
+        <inputFieldName>CreatedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>CreatedDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>1275af97-ea99-4312-9a28-ec09a36ffceb</globalKey>
+        <inputFieldName>Line:Quantity</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:Quantity</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>fb0a0333-d35b-4c86-84d1-c49455c8d1c3</globalKey>
+        <inputFieldName>Line:Discount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:Discount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>96a07cd1-0368-466c-8129-90f27549c599</globalKey>
+        <inputFieldName>ExpirationDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>ExpirationDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>b7d22911-d96f-4eeb-8694-9c75536ee45c</globalKey>
+        <inputFieldName>Line:CQL:CQL2:NetTotalPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:CQL:CQL2:NetTotalPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>d4da41ff-1d18-4cbd-b395-2f637c73f6fb</globalKey>
+        <inputFieldName>BillingStreet</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>BillingStreet</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>10cd4d6f-626d-4930-ba09-621a97bf18ab</globalKey>
+        <inputFieldName>Line:CQL:NetTotalPrice</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:CQL:NetTotalPrice</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>60bda53f-a1dc-4647-8b5c-422e3f7b48c6</globalKey>
+        <inputFieldName>BillingCity</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>BillingCity</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>99269ab2-cb44-40ec-a4d3-074f9683cfb2</globalKey>
+        <inputFieldName>QuoteNumber</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>QuoteNumber</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>163a50cb-3fcd-4934-84ad-af54f553ea0c</globalKey>
+        <inputFieldName>BillingPostalCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>BillingPostalCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>23512840-20c2-45cb-944b-25047767cce8</globalKey>
+        <inputFieldName>BillingState</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>BillingState</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>63891b69-273c-41f9-89d8-bd13247864b7</globalKey>
+        <inputFieldName>Line:ProductName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Line:ProductName</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>46d6bbc3-9173-46e9-9fd5-92790fd3a7e6</globalKey>
+        <inputFieldName>ShippingStreet</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>RCQuoteTransformBasic</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>ShippingStreet</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -676,7 +676,7 @@
     <rollbackOnError>false</rollbackOnError>
     <sourceObjectDefault>false</sourceObjectDefault>
     <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
-    <targetOutputFileName>SalesProposal(Version 1)</targetOutputFileName>
+    <targetOutputFileName>QuoteProposal(Version 1)</targetOutputFileName>
     <type>Transform</type>
     <uniqueName>RCQuoteTransformBasic_1</uniqueName>
     <versionNumber>1.0</versionNumber>

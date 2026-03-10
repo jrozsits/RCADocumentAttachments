@@ -20,5 +20,9 @@
 		<members>RCQuoteTransformBasic_1</members>
 		<name>OmniDataTransform</name>
 	</types>
+	<types>
+		<members>QuoteProposal_1</members>
+		<name>DocumentTemplate</name>
+	</types>
 	<version>66.0</version>
 </Package>
